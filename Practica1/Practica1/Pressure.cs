@@ -26,5 +26,6 @@ namespace Practica1
             Dolgota = double.Parse(values[4]);
 
         }
+
     }
 }

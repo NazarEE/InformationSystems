@@ -16,7 +16,7 @@ namespace Practica1
 
         public Pressure() { }
 
-        public void FromStr(string f)
+        public virtual void FromStr(string f)
         {
             string[] values = f.Trim().Split(' ');
             Date = DateTime.Parse(values[0]);

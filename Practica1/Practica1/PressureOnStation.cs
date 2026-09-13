@@ -12,5 +12,13 @@ namespace Practica1
         public bool CorrectData { get; set; }
 
         public PressureOnStation() { }
+
+        public override void FromStr(string f)
+        {
+            base.FromStr(f);
+            string[] values = f.Split(' ');
+            StationName = values[5];
+            CorrectData = bool.Parse(values[6]);
+        }
     }
 }

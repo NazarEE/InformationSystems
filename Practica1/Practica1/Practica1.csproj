@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Pressure.cs" />
+    <Compile Include="PressureOnStation.cs" />
+    <Compile Include="PressureWithTemperature.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

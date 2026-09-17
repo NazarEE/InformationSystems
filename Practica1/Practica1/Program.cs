@@ -11,31 +11,49 @@ namespace Practica1
     {
         static void Main(string[] args)
         {
-            /*String s = Console.ReadLine();
-            Pressure p1 = new Pressure();
-            p1.FromStr(s);
-            string[] result = { $"Дата: {p1.Date}, Высота: {p1.Height}, Значение: {p1.Value}, Широта: {p1.Shirota}, Долгота: {p1.Dolgota}" };
-            File.WriteAllLines("file.txt" +
-                "", result);*/
+            List<Pressure> pressures = new List<Pressure>();
 
-            Pressure p0 = new Pressure();
-            p0.FromStr("2026.09.10 10 34 35 45");
-            Pressure p2 = new Pressure();
-            p2.FromStr("2025.09.10 10 34 35 45");
-            Pressure p3 = new Pressure();
-            p3.FromStr("2024.09.09 10 34 35 45");
-            Pressure[] pressures1 = { p0, p2, p3 };
-            AddDayToMinDate(pressures1);
-            Console.WriteLine($"Проверка функции добавления одного дня к минимальной дате: {p3.Date}");
+            while (true)
+            {
+                Console.WriteLine("МЕНЮ");
+                Console.WriteLine("1 - добавить объект");
+                Console.WriteLine("2 - считать из файла");
+                Console.WriteLine("3 - список объектов");
+                Console.WriteLine("0 - выход");
+                string choice = Console.ReadLine();
+                switch (choice)
+                {
+                    case "1":
+                        Console.WriteLine("Введите строку с данными(например, 2026.09.10 10 34 35 45): ");
+                        string user_data = Console.ReadLine();
+                        string[] data = { user_data };
+                        foreach (Pressure p in InitObjects(data))
+                        {
+                            pressures.Add(p);
+                        }
+                        break;
+                    case "2":
+                        Console.WriteLine("Введите имя файла (например, data.txt)");
+                        string filename = Console.ReadLine();
+                        string[] datafromfile = ReadFromFile(filename);
+                        foreach (Pressure p in InitObjects(datafromfile))
+                        {
+                            pressures.Add(p);
+                        }
+                        break;
+                    case "3":
+                        foreach(Pressure p in pressures)
+                        {
+                            Console.WriteLine(p.ToString());
+                        }
+                        break;
+                    case "0":
+                        return;
+                }
+            ;
 
-            string[] data = ReadFromFile("data.txt");
-            List<Pressure> pressures = InitObjects(data);
-            Console.WriteLine("Проверка инициализации объектов:");
-            foreach (Pressure p in pressures) { 
-                Console.WriteLine(p.ToString());
+
             }
-
-
         }
 
         public static void AddDayToMinDate(Pressure[] pressures)

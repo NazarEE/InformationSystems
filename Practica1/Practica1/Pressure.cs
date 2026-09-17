@@ -27,5 +27,9 @@ namespace Practica1
 
         }
 
+        public override string ToString() {
+            return $"Дата: {Date}, Высота: {Height}, Значение: {Value}, Широта: {Shirota}, Долгота: {Dolgota}";
+        }
+
     }
 }

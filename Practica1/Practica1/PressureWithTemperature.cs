@@ -21,5 +21,10 @@ namespace Practica1
             Temperature = double.Parse(values[5]);
             Humidity = double.Parse(values[6]);
         }
+
+        public override string ToString()
+        {
+            return $"Дата: {Date}, Высота: {Height}, Значение: {Value}, Широта: {Shirota}, Долгота: {Dolgota}, Температура: {Temperature}, Влажность: {Humidity}";
+        }
     }
 }

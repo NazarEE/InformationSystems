@@ -20,5 +20,10 @@ namespace Practica1
             StationName = values[5];
             CorrectData = bool.Parse(values[6]);
         }
+
+        public override string ToString()
+        {
+            return $"Дата: {Date}, Высота: {Height}, Значение: {Value}, Широта: {Shirota}, Долгота: {Dolgota}, Имя станции: {StationName}, Корректность данных: {CorrectData}";
+        }
     }
 }

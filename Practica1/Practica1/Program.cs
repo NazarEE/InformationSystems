@@ -28,19 +28,31 @@ namespace Practica1
                     case "1":
                         Console.WriteLine("Введите строку с данными(например, 2026.09.10 10 34 35 45): ");
                         string user_data = Console.ReadLine();
-                        string[] data = { user_data };
-                        foreach (Pressure p in functionsforobjects.InitObjects(data))
+                        try
                         {
-                            pressures.Add(p);
+                            string[] data = { user_data };
+                            foreach (Pressure p in functionsforobjects.InitObjects(data))
+                            {
+                                pressures.Add(p);
+                            }
+                        }
+                        catch (Exception ex) {
+                            Console.WriteLine($"Ошибка: {ex.Message}");
                         }
                         break;
                     case "2":
                         Console.WriteLine("Введите имя файла (например, data.txt)");
                         string filename = Console.ReadLine();
-                        string[] datafromfile = functionsforfiles.ReadFromFile(filename);
-                        foreach (Pressure p in functionsforobjects.InitObjects(datafromfile))
+                        try
                         {
-                            pressures.Add(p);
+                            string[] datafromfile = functionsforfiles.ReadFromFile(filename);
+                            foreach (Pressure p in functionsforobjects.InitObjects(datafromfile))
+                            {
+                                pressures.Add(p);
+                            }
+                        }
+                        catch (Exception ex) {
+                            Console.WriteLine($"Ошибка: {ex.Message}");
                         }
                         break;
                     case "3":

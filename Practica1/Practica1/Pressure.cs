@@ -19,7 +19,7 @@ namespace Practica1
         public virtual void FromStr(string f)
         {
             string[] values = f.Trim().Split(' ');
-            if (values.Length == 5)
+            if (values.Length >= 5)
             {
                 try
                 {

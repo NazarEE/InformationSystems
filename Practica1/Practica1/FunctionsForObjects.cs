@@ -14,7 +14,7 @@ namespace Practica1
             {
                 DateTime dateTime = pressures[0].Date;
                 int index = 0;
-                int result_index = -1;
+                int result_index = 0;
                 foreach (Pressure p in pressures)
                 {
                     if (p.Date < dateTime)
@@ -37,24 +37,28 @@ namespace Practica1
             List<Pressure> result = new List<Pressure>();
             foreach (string s in strings)
             {
-                string[] s1 = s.Split(' ');
+                string[] s1 = s.Trim().Split(' ');
                 if (s1.Length == 5)
                 {
                     Pressure p = new Pressure();
                     p.FromStr(s);
                     result.Add(p);
                 }
-                else if (s1.Length == 7 && int.TryParse(s1[5], out int res) && int.TryParse(s1[6], out int res1))
+                else if (s1.Length == 7 && !bool.TryParse(s1[6], out bool res))
                 {
                     PressureWithTemperature p = new PressureWithTemperature();
                     p.FromStr(s);
                     result.Add(p);
                 }
-                else if (s1.Length == 7 && !int.TryParse(s1[5], out int res2) && !int.TryParse(s1[6], out int res3))
+                else if (s1.Length == 7 && bool.TryParse(s1[6], out bool res1))
                 {
                     PressureOnStation p = new PressureOnStation();
                     p.FromStr(s);
                     result.Add(p);
+                }
+                else
+                {
+                    throw new Exception("Неверный формат строки");
                 }
             }
             return result;

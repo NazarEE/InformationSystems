@@ -14,9 +14,9 @@ namespace Practica1
             try { 
                 return File.ReadAllLines(fileName); 
             }
-            catch
+            catch (Exception ex)
             {
-                throw new Exception("Ошибка в имени файла");
+                throw new FileNotFoundException($"Не удалось прочитать файл: {fileName}", ex);
             }
         }
     }

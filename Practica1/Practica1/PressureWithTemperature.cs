@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Practica1
 {
-    internal class PressureWithTemperature: Pressure
+    public class PressureWithTemperature: Pressure
     {
         public double Temperature { get; set; }
         public double Humidity { get; set; }
@@ -17,7 +16,7 @@ namespace Practica1
         public override void FromStr(string f)
         {
             base.FromStr(f);
-            string[] values = f.Split(' ');
+            string[] values = f.Trim().Split(' ');
             if (values.Length == 7)
             {
                 try

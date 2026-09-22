@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practica1
 {
-    internal class PressureOnStation : Pressure
+    public class PressureOnStation : Pressure
     {
         public string StationName { get; set; }
         public bool CorrectData { get; set; }
@@ -16,7 +16,7 @@ namespace Practica1
         public override void FromStr(string f)
         {
             base.FromStr(f);
-            string[] values = f.Split(' ');
+            string[] values = f.Trim().Split(' ');
             if (values.Length == 7)
             {
                 try

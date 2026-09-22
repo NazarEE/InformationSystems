@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practica1
 {
-    public class PressureWithTemperature: Pressure
+    public class PressureWithTemperature : Pressure
     {
         public double Temperature { get; set; }
         public double Humidity { get; set; }
@@ -24,11 +24,13 @@ namespace Practica1
                     Temperature = double.Parse(values[5]);
                     Humidity = double.Parse(values[6]);
                 }
-                catch {
+                catch
+                {
                     throw new Exception("Ошибка обработки данных");
                 }
             }
-            else {
+            else
+            {
                 throw new Exception("Неправильный формат строки");
             }
         }

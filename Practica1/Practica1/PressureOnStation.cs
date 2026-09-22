@@ -17,8 +17,20 @@ namespace Practica1
         {
             base.FromStr(f);
             string[] values = f.Split(' ');
-            StationName = values[5];
-            CorrectData = bool.Parse(values[6]);
+            if (values.Length == 7)
+            {
+                try
+                {
+                    StationName = values[5];
+                    CorrectData = bool.Parse(values[6]);
+                }
+                catch {
+                    throw new Exception("Ошибка обработки данных");
+                }
+            }
+            else {
+                throw new Exception("Неверный формат строки");
+            }
         }
 
         public override string ToString()

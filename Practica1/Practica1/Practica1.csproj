@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FunctionsForFiles.cs" />
+    <Compile Include="FunctionsForObjects.cs" />
     <Compile Include="Pressure.cs" />
     <Compile Include="PressureOnStation.cs" />
     <Compile Include="PressureWithTemperature.cs" />

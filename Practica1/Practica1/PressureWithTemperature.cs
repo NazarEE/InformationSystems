@@ -18,8 +18,20 @@ namespace Practica1
         {
             base.FromStr(f);
             string[] values = f.Split(' ');
-            Temperature = double.Parse(values[5]);
-            Humidity = double.Parse(values[6]);
+            if (values.Length == 7)
+            {
+                try
+                {
+                    Temperature = double.Parse(values[5]);
+                    Humidity = double.Parse(values[6]);
+                }
+                catch {
+                    throw new Exception("Ошибка обработки данных");
+                }
+            }
+            else {
+                throw new Exception("Неправильный формат строки");
+            }
         }
 
         public override string ToString()

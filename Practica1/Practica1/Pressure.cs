@@ -19,12 +19,24 @@ namespace Practica1
         public virtual void FromStr(string f)
         {
             string[] values = f.Trim().Split(' ');
-            Date = DateTime.Parse(values[0]);
-            Height = double.Parse(values[1]);
-            Value = int.Parse(values[2]);
-            Shirota = double.Parse(values[3]);
-            Dolgota = double.Parse(values[4]);
-
+            if (values.Length == 5)
+            {
+                try
+                {
+                    Date = DateTime.Parse(values[0]);
+                    Height = double.Parse(values[1]);
+                    Value = int.Parse(values[2]);
+                    Shirota = double.Parse(values[3]);
+                    Dolgota = double.Parse(values[4]);
+                }
+                catch {
+                    throw new Exception("Ошибка обработки данных");
+                }
+            }
+            else
+            {
+                throw new Exception("Неправильный формат строки");
+            }
         }
 
         public override string ToString() {

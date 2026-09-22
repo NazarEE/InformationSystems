@@ -12,6 +12,8 @@ namespace Practica1
         static void Main(string[] args)
         {
             List<Pressure> pressures = new List<Pressure>();
+            FunctionsForObjects functionsforobjects = new FunctionsForObjects();
+            FunctionsForFiles functionsforfiles = new FunctionsForFiles();
 
             while (true)
             {
@@ -27,7 +29,7 @@ namespace Practica1
                         Console.WriteLine("Введите строку с данными(например, 2026.09.10 10 34 35 45): ");
                         string user_data = Console.ReadLine();
                         string[] data = { user_data };
-                        foreach (Pressure p in InitObjects(data))
+                        foreach (Pressure p in functionsforobjects.InitObjects(data))
                         {
                             pressures.Add(p);
                         }
@@ -35,8 +37,8 @@ namespace Practica1
                     case "2":
                         Console.WriteLine("Введите имя файла (например, data.txt)");
                         string filename = Console.ReadLine();
-                        string[] datafromfile = ReadFromFile(filename);
-                        foreach (Pressure p in InitObjects(datafromfile))
+                        string[] datafromfile = functionsforfiles.ReadFromFile(filename);
+                        foreach (Pressure p in functionsforobjects.InitObjects(datafromfile))
                         {
                             pressures.Add(p);
                         }
@@ -49,62 +51,8 @@ namespace Practica1
                         break;
                     case "0":
                         return;
-                }
-            ;
-
-
+                };
             }
-        }
-
-        public static void AddDayToMinDate(Pressure[] pressures)
-        {
-            DateTime dateTime = pressures[0].Date;
-            int index = 0;
-            int res_index = -1;
-            foreach (Pressure p in pressures) {
-                if (p.Date < dateTime) {
-                    dateTime = p.Date;
-                    res_index = index;
-                }
-                index += 1;
-            }
-            pressures[res_index].Date = pressures[res_index].Date.AddDays(1);
-             
-        }
-
-        public static string[] ReadFromFile(string fileName)
-        {
-            return File.ReadAllLines(fileName);
-        }
-
-        public static List<Pressure> InitObjects(string[] strings)
-        {
-            List<Pressure> result = new List<Pressure>();
-            foreach (string s in strings) {
-                string[] s1 = s.Split(' ');
-                if (s1.Length == 5) {
-                    Pressure p = new Pressure();
-                    p.FromStr(s);
-                    result.Add(p);
-                }
-                else if (s1.Length == 7 && int.TryParse(s1[5], out int res) && int.TryParse(s1[6], out int res1)) {
-                    PressureWithTemperature p = new PressureWithTemperature();
-                    p.FromStr(s);
-                    result.Add(p);
-                }
-                else if (s1.Length == 7 && !int.TryParse(s1[5], out int res2) && !int.TryParse(s1[6], out int res3))
-                {
-                    PressureOnStation p = new PressureOnStation();
-                    p.FromStr(s);
-                    result.Add(p);
-                }
-                else
-                {
-                    Console.WriteLine("Ошибка");
-                }
-            }
-            return result;
-        }
-        
+        }     
     }
 }

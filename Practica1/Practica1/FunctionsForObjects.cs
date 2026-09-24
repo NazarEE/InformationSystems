@@ -26,10 +26,10 @@ namespace Practica1
                 }
                 pressures[result_index].Date = pressures[result_index].Date.AddDays(1);
             }
-            else {
+            else
+            {
                 throw new Exception("Массив данных пустой");
             }
-
         }
 
         public List<Pressure> InitObjects(string[] strings)
@@ -38,19 +38,19 @@ namespace Practica1
             foreach (string s in strings)
             {
                 string[] s1 = s.Trim().Split(' ');
-                if (s1.Length == 5)
+                if (s1[0].ToLower() == "pressure")
                 {
                     Pressure p = new Pressure();
                     p.FromStr(s);
                     result.Add(p);
                 }
-                else if (s1.Length == 7 && !bool.TryParse(s1[6], out bool res))
+                else if (s1[0].ToLower() == "pressurewithtemperature")
                 {
                     PressureWithTemperature p = new PressureWithTemperature();
                     p.FromStr(s);
                     result.Add(p);
                 }
-                else if (s1.Length == 7 && bool.TryParse(s1[6], out bool res1))
+                else if (s1[0].ToLower() == "pressureonstation")
                 {
                     PressureOnStation p = new PressureOnStation();
                     p.FromStr(s);
@@ -58,7 +58,7 @@ namespace Practica1
                 }
                 else
                 {
-                    throw new Exception("Неверный формат строки");
+                    throw new Exception("Неверный тип данных");
                 }
             }
             return result;

@@ -17,18 +17,20 @@ namespace Practica1
         {
             base.FromStr(f);
             string[] values = f.Trim().Split(' ');
-            if (values.Length == 7)
+            if (values.Length == 8)
             {
                 try
                 {
-                    StationName = values[5];
-                    CorrectData = bool.Parse(values[6]);
+                    StationName = values[6];
+                    CorrectData = bool.Parse(values[7]);
                 }
-                catch {
+                catch
+                {
                     throw new Exception("Ошибка обработки данных");
                 }
             }
-            else {
+            else
+            {
                 throw new Exception("Неверный формат строки");
             }
         }

@@ -1,11 +1,11 @@
 {
-  "$schema": "https://alirezanet.github.io/Husky.Net/schema.json",
+  "$schema": "https://github.io",
   "tasks": [
     {
       "name": "csharpier-format",
       "group": "pre-commit",
       "command": "dotnet",
-      "args": ["csharpier", "${staged}"],
+      "args": ["csharpier", "format", "${staged}"],
       "include": ["**/*.cs"]
     }
   ]

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
 
 namespace Practica1
 {
@@ -17,7 +17,7 @@ namespace Practica1
 
             while (true)
             {
-                Console.WriteLine("МЕНЮ");
+                Console.WriteLine("\nМЕНЮ");
                 Console.WriteLine("1 - добавить объект");
                 Console.WriteLine("2 - считать из файла");
                 Console.WriteLine("3 - список объектов");
@@ -26,7 +26,9 @@ namespace Practica1
                 switch (choice)
                 {
                     case "1":
-                        Console.WriteLine("Введите строку с данными(например, 2026.09.10 10 34 35 45): ");
+                        Console.WriteLine(
+                            "Введите строку с данными(например, Pressure 2026.09.10 10 34 35 45): "
+                        );
                         string user_data = Console.ReadLine();
                         try
                         {
@@ -36,7 +38,8 @@ namespace Practica1
                                 pressures.Add(p);
                             }
                         }
-                        catch (Exception ex) {
+                        catch (Exception ex)
+                        {
                             Console.WriteLine($"Ошибка: {ex.Message}");
                         }
                         break;
@@ -51,20 +54,25 @@ namespace Practica1
                                 pressures.Add(p);
                             }
                         }
-                        catch (Exception ex) {
+                        catch (Exception ex)
+                        {
                             Console.WriteLine($"Ошибка: {ex.Message}");
                         }
                         break;
                     case "3":
-                        foreach(Pressure p in pressures)
+                        foreach (Pressure p in pressures)
                         {
                             Console.WriteLine(p.ToString());
                         }
                         break;
                     case "0":
                         return;
-                };
+                    default:
+                        Console.WriteLine("Неверный ввод");
+                        break;
+                }
+                ;
             }
-        }     
+        }
     }
 }

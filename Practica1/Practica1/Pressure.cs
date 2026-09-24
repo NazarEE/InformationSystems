@@ -19,17 +19,18 @@ namespace Practica1
         public virtual void FromStr(string f)
         {
             string[] values = f.Trim().Split(' ');
-            if (values.Length >= 5)
+            if (values.Length >= 6)
             {
                 try
                 {
-                    Date = DateTime.Parse(values[0]);
-                    Height = double.Parse(values[1]);
-                    Value = int.Parse(values[2]);
-                    Shirota = double.Parse(values[3]);
-                    Dolgota = double.Parse(values[4]);
+                    Date = DateTime.Parse(values[1]);
+                    Height = double.Parse(values[2]);
+                    Value = int.Parse(values[3]);
+                    Shirota = double.Parse(values[4]);
+                    Dolgota = double.Parse(values[5]);
                 }
-                catch {
+                catch
+                {
                     throw new Exception("Ошибка обработки данных");
                 }
             }
@@ -39,9 +40,9 @@ namespace Practica1
             }
         }
 
-        public override string ToString() {
+        public override string ToString()
+        {
             return $"Дата: {Date}, Высота: {Height}, Значение: {Value}, Широта: {Shirota}, Долгота: {Dolgota}";
         }
-
     }
 }

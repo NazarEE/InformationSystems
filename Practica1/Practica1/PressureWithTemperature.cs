@@ -17,12 +17,12 @@ namespace Practica1
         {
             base.FromStr(f);
             string[] values = f.Trim().Split(' ');
-            if (values.Length == 7)
+            if (values.Length == 8)
             {
                 try
                 {
-                    Temperature = double.Parse(values[5]);
-                    Humidity = double.Parse(values[6]);
+                    Temperature = double.Parse(values[6]);
+                    Humidity = double.Parse(values[7]);
                 }
                 catch
                 {

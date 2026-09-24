@@ -18,10 +18,10 @@ namespace Practica1
 
         public virtual void FromStr(string f)
         {
-            string[] values = f.Trim().Split(' ');
-            if (values.Length >= 6)
+            try
             {
-                try
+                string[] values = f.Trim().Split(' ');
+                if (values.Length >= 6)
                 {
                     Date = DateTime.Parse(values[1]);
                     Height = double.Parse(values[2]);
@@ -29,14 +29,14 @@ namespace Practica1
                     Shirota = double.Parse(values[4]);
                     Dolgota = double.Parse(values[5]);
                 }
-                catch
+                else
                 {
-                    throw new Exception("Ошибка обработки данных");
+                    throw new Exception("Неправильный формат строки");
                 }
             }
-            else
+            catch
             {
-                throw new Exception("Неправильный формат строки");
+                throw new Exception("Ошибка обработки данных");
             }
         }
 

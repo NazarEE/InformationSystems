@@ -23,55 +23,47 @@ namespace Practica1
                 Console.WriteLine("3 - список объектов");
                 Console.WriteLine("0 - выход");
                 string choice = Console.ReadLine();
-                switch (choice)
+                try
                 {
-                    case "1":
-                        Console.WriteLine(
-                            "Введите строку с данными(например, Pressure 2026.09.10 10 34 35 45): "
-                        );
-                        string user_data = Console.ReadLine();
-                        try
-                        {
+                    switch (choice)
+                    {
+                        case "1":
+                            Console.WriteLine(
+                                "Введите строку с данными(например, Pressure 2026.09.10 10 34 35 45): "
+                            );
+                            string user_data = Console.ReadLine();
                             string[] data = { user_data };
                             foreach (Pressure p in functionsforobjects.InitObjects(data))
                             {
                                 pressures.Add(p);
                             }
-                        }
-                        catch (Exception ex)
-                        {
-                            Console.WriteLine($"Ошибка: {ex.Message}");
-                        }
-                        break;
-                    case "2":
-                        Console.WriteLine("Введите имя файла (например, data.txt)");
-                        string filename = Console.ReadLine();
-                        try
-                        {
+                            break;
+                        case "2":
+                            Console.WriteLine("Введите имя файла (например, data.txt)");
+                            string filename = Console.ReadLine();
                             string[] datafromfile = functionsforfiles.ReadFromFile(filename);
                             foreach (Pressure p in functionsforobjects.InitObjects(datafromfile))
                             {
                                 pressures.Add(p);
                             }
-                        }
-                        catch (Exception ex)
-                        {
-                            Console.WriteLine($"Ошибка: {ex.Message}");
-                        }
-                        break;
-                    case "3":
-                        foreach (Pressure p in pressures)
-                        {
-                            Console.WriteLine(p.ToString());
-                        }
-                        break;
-                    case "0":
-                        return;
-                    default:
-                        Console.WriteLine("Неверный ввод");
-                        break;
+                            break;
+                        case "3":
+                            foreach (Pressure p in pressures)
+                            {
+                                Console.WriteLine(p.ToString());
+                            }
+                            break;
+                        case "0":
+                            return;
+                        default:
+                            Console.WriteLine("Неверный ввод");
+                            break;
+                    }
                 }
-                ;
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ошибка: {ex.Message}");
+                }
             }
         }
     }

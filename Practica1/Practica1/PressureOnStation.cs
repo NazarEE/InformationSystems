@@ -15,23 +15,23 @@ namespace Practica1
 
         public override void FromStr(string f)
         {
-            base.FromStr(f);
-            string[] values = f.Trim().Split(' ');
-            if (values.Length == 8)
+            try
             {
-                try
+                base.FromStr(f);
+                string[] values = f.Trim().Split(' ');
+                if (values.Length == 8)
                 {
                     StationName = values[6];
                     CorrectData = bool.Parse(values[7]);
                 }
-                catch
+                else
                 {
-                    throw new Exception("Ошибка обработки данных");
+                    throw new Exception("Неверный формат строки");
                 }
             }
-            else
+            catch
             {
-                throw new Exception("Неверный формат строки");
+                throw new Exception("Ошибка обработки данных");
             }
         }
 

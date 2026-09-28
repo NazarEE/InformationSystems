@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -33,19 +34,13 @@ namespace Practica1
                             );
                             string user_data = Console.ReadLine();
                             string[] data = { user_data };
-                            foreach (Pressure p in functionsforobjects.InitObjects(data))
-                            {
-                                pressures.Add(p);
-                            }
+                            AddToListPressure(data, pressures);
                             break;
                         case "2":
                             Console.WriteLine("Введите имя файла (например, data.txt)");
                             string filename = Console.ReadLine();
                             string[] datafromfile = functionsforfiles.ReadFromFile(filename);
-                            foreach (Pressure p in functionsforobjects.InitObjects(datafromfile))
-                            {
-                                pressures.Add(p);
-                            }
+                            AddToListPressure(datafromfile, pressures);
                             break;
                         case "3":
                             foreach (Pressure p in pressures)
@@ -64,6 +59,15 @@ namespace Practica1
                 {
                     Console.WriteLine($"Ошибка: {ex.Message}");
                 }
+            }
+        }
+
+        public static void AddToListPressure(string[] data, List<Pressure> pressureslist)
+        {
+            FunctionsForObjects functionsforobjects = new FunctionsForObjects();
+            foreach (Pressure p in functionsforobjects.InitObjects(data))
+            {
+                pressureslist.Add(p);
             }
         }
     }

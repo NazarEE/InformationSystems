@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,8 +22,8 @@ namespace Practica1
                 string[] values = f.Trim().Split(' ');
                 if (values.Length == 8)
                 {
-                    Temperature = double.Parse(values[6]);
-                    Humidity = double.Parse(values[7]);
+                    Temperature = double.Parse(values[6], CultureInfo.InvariantCulture);
+                    Humidity = double.Parse(values[7], CultureInfo.InvariantCulture);
                 }
                 else
                 {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Practica1
 {
-    internal class FunctionsForFiles
+    public class FunctionsForFiles
     {
         public string[] ReadFromFile(string fileName)
         {
@@ -17,7 +17,7 @@ namespace Practica1
                 List<string> result = new List<string>();
                 foreach (string line in lines)
                 {
-                    if (line.Length == 0)
+                    if (line.Trim().Length == 0)
                     {
                         continue;
                     }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,11 +24,11 @@ namespace Practica1
                 string[] values = f.Trim().Split(' ');
                 if (values.Length >= 6)
                 {
-                    Date = DateTime.Parse(values[1]);
-                    Height = double.Parse(values[2]);
-                    Value = int.Parse(values[3]);
-                    Shirota = double.Parse(values[4]);
-                    Dolgota = double.Parse(values[5]);
+                    Date = DateTime.Parse(values[1], CultureInfo.InvariantCulture);
+                    Height = double.Parse(values[2], CultureInfo.InvariantCulture);
+                    Value = int.Parse(values[3], CultureInfo.InvariantCulture);
+                    Shirota = double.Parse(values[4], CultureInfo.InvariantCulture);
+                    Dolgota = double.Parse(values[5], CultureInfo.InvariantCulture);
                 }
                 else
                 {

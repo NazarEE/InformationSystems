@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practica1
 {
-    internal class FunctionsForObjects
+    public class FunctionsForObjects
     {
         public void AddDayToMinDate(Pressure[] pressures)
         {

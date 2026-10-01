@@ -21,3 +21,12 @@
 
 dotnet tool run husky run --name csharpier-format
 dotnet tool run husky run --name csharpier-format
+echo "Запуск модульных тестов..."
+dotnet test "C:/Users/AAA/Desktop/InformationSystems/Practica1/Practica1.sln" --no-restore
+
+# Проверяем код возврата последней команды.
+# Если тесты не прошли (код не 0), Git отменит коммит.
+if [ $? -ne 0 ]; then
+  echo "Тесты не прошли. Коммит отменен."
+  exit 1
+fi

@@ -70,5 +70,10 @@ namespace Practica1
                 pressureslist.Add(p);
             }
         }
+
+        public static Dictionary<string, List<List<string>>> Defence3(string input)
+        {
+            return new Dictionary<string, List<List<string>>>();
+        }
     }
 }

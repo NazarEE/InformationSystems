@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35276E82-55A2-4639-8DAE-47BF0FE44B81}|Practica1\\Practica1.csproj|c:\\users\\aaa\\desktop\\informationsystems\\practica1\\practica1\\functionsforfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35276E82-55A2-4639-8DAE-47BF0FE44B81}|Practica1\\Practica1.csproj|solutionrelative:practica1\\functionsforfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|c:\\users\\aaa\\desktop\\informationsystems\\practica1\\practica1.tests\\defence3tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|solutionrelative:practica1.tests\\defence3tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|c:\\users\\aaa\\desktop\\informationsystems\\practica1\\practica1.tests\\pressuretests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|solutionrelative:practica1.tests\\pressuretests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|c:\\users\\aaa\\desktop\\informationsystems\\practica1\\practica1.tests\\pressureonstationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|solutionrelative:practica1.tests\\pressureonstationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|c:\\users\\aaa\\desktop\\informationsystems\\practica1\\practica1.tests\\functionsforobjectstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|solutionrelative:practica1.tests\\functionsforobjectstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|c:\\users\\aaa\\desktop\\informationsystems\\practica1\\practica1.tests\\functionsforfilestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|solutionrelative:practica1.tests\\functionsforfilestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35276E82-55A2-4639-8DAE-47BF0FE44B81}|Practica1\\Practica1.csproj|C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\practica1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35276E82-55A2-4639-8DAE-47BF0FE44B81}|Practica1\\Practica1.csproj|solutionrelative:practica1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|c:\\users\\aaa\\desktop\\informationsystems\\practica1\\practica1.tests\\programtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|solutionrelative:practica1.tests\\programtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35276E82-55A2-4639-8DAE-47BF0FE44B81}|Practica1\\Practica1.csproj|C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\practica1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35276E82-55A2-4639-8DAE-47BF0FE44B81}|Practica1\\Practica1.csproj|solutionrelative:practica1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|c:\\users\\aaa\\desktop\\informationsystems\\practica1\\practica1.tests\\pressuretests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|solutionrelative:practica1.tests\\pressuretests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|c:\\users\\aaa\\desktop\\informationsystems\\practica1\\practica1.tests\\functionsforobjectstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|solutionrelative:practica1.tests\\functionsforobjectstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35276E82-55A2-4639-8DAE-47BF0FE44B81}|Practica1\\Practica1.csproj|C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\practica1\\functionsforfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35276E82-55A2-4639-8DAE-47BF0FE44B81}|Practica1\\Practica1.csproj|solutionrelative:practica1\\functionsforfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|c:\\users\\aaa\\desktop\\informationsystems\\practica1\\practica1.tests\\pressureonstationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|solutionrelative:practica1.tests\\pressureonstationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|c:\\users\\aaa\\desktop\\informationsystems\\practica1\\practica1.tests\\functionsforfilestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476D7676-0CD7-8E2E-CA5E-1DC62B77A237}|Practica1.Tests\\Practica1.Tests.csproj|solutionrelative:practica1.tests\\functionsforfilestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35276E82-55A2-4639-8DAE-47BF0FE44B81}|Practica1\\Practica1.csproj|C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\practica1\\functionsforobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,80 +66,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Defence3Tests.cs",
+              "DocumentMoniker": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\Defence3Tests.cs",
+              "RelativeDocumentMoniker": "Practica1.Tests\\Defence3Tests.cs",
+              "ToolTip": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\Defence3Tests.cs",
+              "RelativeToolTip": "Practica1.Tests\\Defence3Tests.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T07:39:53.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProgramTests.cs",
               "DocumentMoniker": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\ProgramTests.cs",
               "RelativeDocumentMoniker": "Practica1.Tests\\ProgramTests.cs",
               "ToolTip": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\ProgramTests.cs",
               "RelativeToolTip": "Practica1.Tests\\ProgramTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T16:28:22.112Z"
+              "WhenOpened": "2026-09-30T16:28:22.112Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FunctionsForObjectsTests.cs",
               "DocumentMoniker": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\FunctionsForObjectsTests.cs",
               "RelativeDocumentMoniker": "Practica1.Tests\\FunctionsForObjectsTests.cs",
               "ToolTip": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\FunctionsForObjectsTests.cs",
               "RelativeToolTip": "Practica1.Tests\\FunctionsForObjectsTests.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwEAAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowFkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T16:26:39.394Z"
+              "WhenOpened": "2026-09-30T16:26:39.394Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "FunctionsForFilesTests.cs",
               "DocumentMoniker": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\FunctionsForFilesTests.cs",
               "RelativeDocumentMoniker": "Practica1.Tests\\FunctionsForFilesTests.cs",
               "ToolTip": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\FunctionsForFilesTests.cs",
               "RelativeToolTip": "Practica1.Tests\\FunctionsForFilesTests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T16:25:38.219Z"
+              "WhenOpened": "2026-09-30T16:25:38.219Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "PressureOnStationTests.cs",
               "DocumentMoniker": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\PressureOnStationTests.cs",
               "RelativeDocumentMoniker": "Practica1.Tests\\PressureOnStationTests.cs",
               "ToolTip": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\PressureOnStationTests.cs",
               "RelativeToolTip": "Practica1.Tests\\PressureOnStationTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T06:45:22.123Z"
+              "WhenOpened": "2026-09-29T06:45:22.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PressureTests.cs",
               "DocumentMoniker": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\PressureTests.cs",
               "RelativeDocumentMoniker": "Practica1.Tests\\PressureTests.cs",
               "ToolTip": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\PressureTests.cs",
               "RelativeToolTip": "Practica1.Tests\\PressureTests.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T06:45:06.817Z"
+              "WhenOpened": "2026-09-28T06:45:06.817Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "FunctionsForFiles.cs",
               "DocumentMoniker": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1\\FunctionsForFiles.cs",
               "RelativeDocumentMoniker": "Practica1\\FunctionsForFiles.cs",
               "ToolTip": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1\\FunctionsForFiles.cs",
               "RelativeToolTip": "Practica1\\FunctionsForFiles.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-22T05:53:00.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1\\Program.cs",
+              "RelativeDocumentMoniker": "Practica1\\Program.cs",
+              "ToolTip": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1\\Program.cs",
+              "RelativeToolTip": "Practica1\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwEkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T16:14:10.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "FunctionsForObjects.cs",
               "DocumentMoniker": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1\\FunctionsForObjects.cs",
               "RelativeDocumentMoniker": "Practica1\\FunctionsForObjects.cs",
@@ -147,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PressureWithTemperature.cs",
               "DocumentMoniker": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1\\PressureWithTemperature.cs",
               "RelativeDocumentMoniker": "Practica1\\PressureWithTemperature.cs",
@@ -159,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PressureOnStation.cs",
               "DocumentMoniker": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1\\PressureOnStation.cs",
               "RelativeDocumentMoniker": "Practica1\\PressureOnStation.cs",
@@ -171,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Pressure.cs",
               "DocumentMoniker": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1\\Pressure.cs",
               "RelativeDocumentMoniker": "Practica1\\Pressure.cs",
@@ -180,18 +215,6 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-03T16:14:40.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1\\Program.cs",
-              "RelativeDocumentMoniker": "Practica1\\Program.cs",
-              "ToolTip": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1\\Program.cs",
-              "RelativeToolTip": "Practica1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T16:14:10.367Z"
             }
           ]
         }

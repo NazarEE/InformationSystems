@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\Practica1.Tests.csproj": {}
+    "D:\\InformationSystems\\Practica1\\Practica1.Tests\\Practica1.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\Practica1.Tests.csproj": {
+    "D:\\InformationSystems\\Practica1\\Practica1.Tests\\Practica1.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\Practica1.Tests.csproj",
+        "projectUniqueName": "D:\\InformationSystems\\Practica1\\Practica1.Tests\\Practica1.Tests.csproj",
         "projectName": "Practica1.Tests",
-        "projectPath": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\Practica1.Tests.csproj",
+        "projectPath": "D:\\InformationSystems\\Practica1\\Practica1.Tests\\Practica1.Tests.csproj",
         "packagesPath": "C:\\Users\\AAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1.Tests\\obj\\",
+        "outputPath": "D:\\InformationSystems\\Practica1\\Practica1.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1\\Practica1.csproj": {
-                "projectPath": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1\\Practica1.csproj"
+              "D:\\InformationSystems\\Practica1\\Practica1\\Practica1.csproj": {
+                "projectPath": "D:\\InformationSystems\\Practica1\\Practica1\\Practica1.csproj"
               }
             }
           }
@@ -91,11 +91,11 @@
         }
       }
     },
-    "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1\\Practica1.csproj": {
+    "D:\\InformationSystems\\Practica1\\Practica1\\Practica1.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1\\Practica1.csproj",
+        "projectUniqueName": "D:\\InformationSystems\\Practica1\\Practica1\\Practica1.csproj",
         "projectName": "Practica1",
-        "projectPath": "C:\\Users\\AAA\\Desktop\\InformationSystems\\Practica1\\Practica1\\Practica1.csproj",
+        "projectPath": "D:\\InformationSystems\\Practica1\\Practica1\\Practica1.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
